@@ -106,6 +106,7 @@ function vendd_main_menu_search_form( $items, $location ) {
 }
 add_filter( 'wp_nav_menu_items', 'vendd_main_menu_search_form', 10, 2 );
 
+define('EDD_DISABLE_ARCHIVE', true);
 
 /**
  * Register widget area
