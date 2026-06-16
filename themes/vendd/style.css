@@ -1528,7 +1528,7 @@ object {
 }
 .store-front-header .entry-title,
 .download-term-header .term-title {
-	font: 400 2.67em/1.4 "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font: 400 2.67em/1.4 "Aboreto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	margin-bottom: .4em;
 }
 #store-front,
@@ -1693,7 +1693,7 @@ body:not(.vendd-full-width-page-template) .entry-content .edd_downloads_list.edd
 	text-decoration: underline;
 }
 .edd_download_title {
-	font: 300 1.5em/1.4 "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font: 300 1.5em/1.4 "Aboreto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	padding: 15px 20px 0;
 	margin-bottom: 15px;
 }
