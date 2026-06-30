@@ -36,6 +36,8 @@ Font Awesome Licenses:
 --------------------------------------------------------------*/
 
 
+
+
 /*--------------------------------------------------------------
 *** Main theme colors - grouped for easy override w/ customizer
 --------------------------------------------------------------*/
@@ -4092,4 +4094,104 @@ aside[class*="widget_edd_"] .widget-download-title {
 		font-size: 1.2em;
 		margin-bottom: 20px;
 	}
+}
+
+/* Custom CSS */
+h1{
+  font-family: "Kumar One Outline", system-ui;
+  font-weight: 400;
+  font-style: normal;
+	color: white
+}
+
+.site-description{
+	color:white;
+	font-family: "Aboreto";
+	font-style: normal;
+}
+
+.entry-title, h1.entry-title, .page-title {
+		color:#014400;
+		font-family: "Abyssinica SIL", serif;
+  		font-weight: 400;
+  		font-style: normal;
+		font-size: 40px;
+		border-bottom: 3px solid #014400;
+		padding-bottom: 0.2em;
+}
+
+h4 {
+	font-weight: 200;
+}
+
+#content{
+	background-color:#fffdfa;
+}
+
+.site-title {
+	font-family: "Kumar One Outline", system-ui;
+  font-weight: 400;
+  font-style: normal;
+	font-size: 50px;
+	color: white
+}
+
+footer, .site-info{
+	color: white;
+	background-color: #014400;
+}
+
+footer p {
+	padding-bottom: 15px;
+	padding-top: 0px;
+	font-family: "Abyssinica SIL", serif;
+}
+
+article footer{
+	background-color: white;
+}
+
+#secondary{
+	background-color:#ede3d3;
+
+}
+
+.widget-area, .widget-title, .edd-blocks__download-header h3{
+	font-family: "Abyssinica SIL";
+}
+
+.edd_price_option_name, .edd_price_option_sep, .edd_price_option_price{
+	font-size: 18px;
+}
+
+.widget.widget_edd_cart_widget{
+	display:none;
+}
+
+.vendd-details-list-item{
+	background-color:#fffdfa;
+	border-top: solid 2px
+}
+
+.edd-blocks__download-header h3 a:link{
+	text-decoration: none;
+}
+
+.edd-blocks__download-header h3{
+	margin-top: 0.4em;
+	border-bottom: 3px solid #014400;
+	padding-bottom: 0.3em
+}
+
+.wp-block-edd-downloads{
+	//border: solid 2px;
+	margin-left: -1rem;
+}
+
+.wp-block-edd-downloads.edd-blocks__downloads.edd-blocks__columns{
+	gap: 1rem
+}
+
+#content{
+	padding-bottom: 0;
 }
